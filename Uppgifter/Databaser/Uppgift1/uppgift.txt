@@ -12,24 +12,24 @@ e) select efternamn from tabellnamn;
 
 4.
 
-a) select * from st√der where landskap='dalarna';
+a) select * from st√§der where landskap='dalarna';
 
-b) select * from st√der where inv√nare>50000;
+b) select * from st√§der where in√nare>50000;
 
-c) select * from st√der where inv√ndare>200000;
+c) select * from st√§der where in√•ndare>200000;
 
 d) select * from st√§der where postkod like '4%';
 
-e) Select * from st√der where l√n='v√stra g√talands l√n';
+e) Select * from st√§der where √n='v√§stra g√∂talandl√§n';
 
-f) select * from st√der where kommun like 'A%';
+f) select * from st√§der where kommun like 'A%';
 
-G) select * from st√der where inv√nare=50000;
+G) select * from st√§der where inv√•nare=50000;
 
 5.
 
-a) select * from st√der order by inv√nare desc;
+a) select * from st√§der order by in√nare desc;
 
-b) select * from st√der order by stad;
+b) select * from st√§der order by stad;
 
-c) select * from st√der order by postkod;
+c) select * from st√§der order by postkod;
