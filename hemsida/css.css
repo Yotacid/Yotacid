@@ -1,0 +1,13 @@
+
+body{
+	background-color:red;
+	float:left;
+}
+
+#main{
+	position:absolute; margin:0 auto;
+	width:99%;
+	height:99%;
+	background-color:orange;
+}
+
