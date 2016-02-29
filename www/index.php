@@ -1,4 +1,6 @@
 <?php
+  
+  header('../site/main.php');
 
 	require_once('../phps/mysql_connect.php');
 	// Ger variabeln $dbc som �r anslutningen till databasen.
