@@ -2,7 +2,7 @@
 	DEFINE('DB_USER','root');  
 	DEFINE('DB_HOST','localhost');  
 	DEFINE('DB_PASSWORD','dxuxljgtf');  
-	DEFINE('DB_DATABASE','test');  
+	DEFINE('DB_DATABASE','site');  
 
 	$dbc = mysqli_connect(DB_HOST,DB_USER,DB_PASSWORD,DB_DATABASE); 
 

@@ -1,26 +1,43 @@
-<?php
-  
-  header('../site/main.php');
-
+<?php 
 	require_once('../phps/mysql_connect.php');
-	// Ger variabeln $dbc som �r anslutningen till databasen.
-	
-	$query = 'SELECT City,Population FROM Cities where population>=5000000 order by Population desc;';
-	$query2 = 'SELECT City,Population,Latitude From Cities where latitude>=0 order by City;';
-	$result = mysqli_query($dbc, $query);
-	
-	$result2 = mysqli_query($dbc, $query2);
-	echo '<table border="solid">';
-	while($row = mysqli_fetch_array($result)){
-		
-	echo '<tr><td>' . ucfirst($row['City']) . ' </td> <td> ' . $row['Population'] . '</td></tr>';
-	
-	}
-	echo '</table>';
-	echo '<table border="solid">';
-	while($row = mysqli_fetch_array($result2)){
-	echo '<tr><td>' . $row['City'] . ' </td> <td> ' . $row['Population'] . ' </td> <td>' . $row['Latitude'] . ' </td> </tr> ';
-	
-	}
-	echo '</table>';
-?>
+ ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<title>Log in to JaokPillows.com</title>
+</head>
+<body>
+<div id="left">
+<img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img">
+<img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img">
+<img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img">
+<img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img">
+<img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img">
+<img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img">
+<img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img">
+<img src="jaok.png" id="img"><img src="jaoks.png" id="img"><img src="jaok.png" id="img"><img src="jaoks.png" id="img">
+</div>	
+<div id="right">
+<img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img">
+<img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img">
+<img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img">
+<img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img">
+<img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img">
+<img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img">
+<img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img">
+<img src="jaoksa.png" id="img"><img src="jaoka.png" id="img"><img src="jaoksa.png" id="img"><img src="jaoka.png" id="img">
+</div>
+
+
+<div id="loginbox">
+	<form method="post" action="verification.php">
+		<p>Email: </p><input type="Text" name="mail" required> <br />
+		<p>Password: </p><input type="Password" name="Password" required> <br />
+		<input type="submit" name="submit" value="Login" id="bot">
+	</form>
+	<a href="reg.php"><button>Register new account</button></a>
+</div>
+</body>
+</html>

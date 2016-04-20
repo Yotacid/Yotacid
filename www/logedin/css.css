@@ -1,0 +1,16 @@
+body{
+	background-color: purple;
+}
+
+nav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	border: 1px solid black;
+}
+
+nav ul li{
+	display: inline-table;
+}
+
