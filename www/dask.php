@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Wrong Password, Try again</title>
 </head>
 <body>
 <div>
@@ -9,7 +9,7 @@
 <h2>Wrong password b0ss</h2>
 <a href="index.php"><img src="new.jpg" /></a>
 <audio autoplay>
-	<source src="sound/distorted.mp3" type="audio/mpeg">
+	<source src="logedin/sound/distorted.mp3" type="audio/mpeg">
 </audio>
 </div>
 <style type="text/css">
