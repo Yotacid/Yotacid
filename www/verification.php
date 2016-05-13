@@ -24,6 +24,7 @@ $password = mysqli_fetch_array($result2);
 if($password){ // Om Anv�ndarnamnet i databasen �r samma som fr�n formul�ret
 	$_SESSION['loggedIn'] = TRUE; // Inloggad SANTs
 	$_SESSION['timeout'] = time(); // Timeout = Nuvarande tid 
+	$_SESSION['id'] = $id;
 	$_SESSION['name'] = $name;
 	$_SESSION['mail'] = $mail;
 	$_SESSION['surname'] = $sname;

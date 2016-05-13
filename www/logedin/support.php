@@ -9,15 +9,15 @@
 	<p>Support message</p>
 	<textarea id="msg" type="text" name="message" required></textarea> <br />
 	<select name="product">
-		<option value="jaokf">Jaok Body Pillow(f)</option>
-		<option value="jaokm">Jaok Body Pillow(m)</option>
-		<option value="damaged">Shipping or transport damages</option>
-		<option value="general">General questions</option>
-		<option value="other">Other</option>
+		<option value="1">Jaok Body Pillow(f)</option>
+		<option value="2">Jaok Body Pillow(m)</option>
+		<option value="10">Shipping or transport damages</option>
+		<option value="11">General questions</option>
+		<option value="12">Other</option>
 	</select>
 	<input type="submit">
 </form>
 	<br /><br /><br />
-	<a href="tickets"><div id="knapp">Display Tickets</div></a>
+	<a href="tickets.php"><div id="knapp">Display Tickets</div></a>
 </body>
 </html>

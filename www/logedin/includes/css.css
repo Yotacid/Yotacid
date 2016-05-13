@@ -25,6 +25,16 @@ nav ul li a{
 	width: 100%;
 	height: 100%;
 }
+#ticket{
+	border: 1px solid black;
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+#inticket {
+	margin: 0 auto;
+	text-align: center;
+}
 #loginname {
 	margin-top: 10%;
 	color: red;
@@ -51,4 +61,17 @@ nav ul li a{
 	width: 400px;
 	height: 200px;
 	background-color: #fff;
+}
+#full {
+	width: 100%;
+}
+#left {
+	float:left;
+	width: 45%;
+}
+#right {
+	float:right;
+	width: 45%;
+	margin-top: 3%;
+	color: red;
 }
