@@ -14,6 +14,8 @@
 		<form method="post" action="functions/credchange.php">
 			<p>New name: </p>
 			<input type="text" name="name">
+			<p>New surname:</p>
+			<input type="text" name="surname">
 			<p>New mail: </p>
 			<input type="text" name="mail">
 			<p>Adress:</p>

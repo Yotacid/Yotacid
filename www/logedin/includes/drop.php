@@ -15,12 +15,12 @@
 <nav>
  <div id="head">
    <ul>
-   <br /><img src="../jaok.png">
+   <br /><a href="http://www.nobrain.dk"><img src="../pictures/jaok.png"></a>
     <a href="logedin.php"><li>Jaok Bodypillows</li></a>
     <a href="profile.php"><li>Profile</li></a>
     <a href="support.php"><li>Support</li></a>
     <a href="functions/logout.php"><li>Log out</li></a>
-    <img src="../jaoka.png">
+    <a href="http://www.lemonparty.org"><img src="../pictures/jaoka.png"></a>
     </ul>
   </div>
 </nav>

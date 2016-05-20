@@ -2,6 +2,9 @@ body{
 	background-color: purple;
 	font-family: copperplate gothic light;
 }
+p {
+    color:red;
+}
 nav {
 	position: relative;
 	top: 0px;
@@ -26,7 +29,8 @@ nav ul li a{
 	height: 100%;
 }
 #ticket{
-	border: 1px solid black;
+	border: 1px solid red;
+    background-color:black;
 	width: 300px;
 	float: left;
 	margin: 10px;
@@ -42,8 +46,10 @@ nav ul li a{
 #proff {
 	color: red;
 	position: relative;
-	width: 20%;
 	margin-top: 10% ;
+	background-color: black;
+	border: 1px solid red;
+	width: 	400px;
 }
 #head{
 	width: 80%;
@@ -73,5 +79,7 @@ nav ul li a{
 	float:right;
 	width: 45%;
 	margin-top: 3%;
-	color: red;
+}
+#right p{
+	color: cyan;
 }
