@@ -12,6 +12,8 @@
     <textarea type="text" name="description"></textarea><br />
     <p>Short description:</p>
     <textarea type="text" name="short"></textarea>
+    <p>Price:</p>
+    <input type="text" name="price" required>
     <input type="submit">
   </div>
 </form>

@@ -25,7 +25,7 @@
 	$_SESSION['timeout'] = time(); // Uppdatera sessionstiden
 	}
 ?><?php 
-	$query = "INSERT INTO product(Name,Pic,Description,shortdescription) VALUES ('".$_POST['name']."','".$_POST['description']."','".$_POST['short']."');";
+	$query = "INSERT INTO product(Name,Pic,Description,shortdescription,Price) VALUES ('".$_POST['name']."','".$_POST['picture']."','".$_POST['description']."','".$_POST['short']."','".$_POST['price']."');";
 	mysqli_query($dbc,$query);
 	header('location: ../index.php')
 ?>
