@@ -11,9 +11,9 @@
 	<select name="product">
 		<option value="1">Jaok Body Pillow(f)</option>
 		<option value="2">Jaok Body Pillow(m)</option>
-		<option value="10">Shipping or transport damages</option>
-		<option value="11">General questions</option>
-		<option value="12">Other</option>
+		<option value="a">Shipping or transport damages</option>
+		<option value="b">General questions</option>
+		<option value="c">Other</option>
 	</select>
 	<input type="submit">
 </form>

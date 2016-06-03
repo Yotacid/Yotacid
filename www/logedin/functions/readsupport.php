@@ -8,6 +8,6 @@ while($row = mysqli_fetch_array($sql)){
 	echo $row['Support'];
 	echo "</p></div><br /><br /><br /><div id='inticket'><p>";
 	echo $row['Reply'];
-	echo "</p><a href='functions/remove.php?id=".$row['Id']."'><button>Remove</button></a></div></Div>";
+	echo "</p><a href='functions/remove.php?id=".$row['Id']."'><button>Remove</button></a></div><br /></Div>";
 }
 ?>

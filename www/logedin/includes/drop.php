@@ -1,5 +1,5 @@
 <?php
-  require_once('../../phps/mysql_connect.php');
+  require_once('c:/wamp/phps/mysql_connect.php');
   session_start(); // Starta session
 
   if(!@$_SESSION['loggedIn']){ // Om man inte är inloggad

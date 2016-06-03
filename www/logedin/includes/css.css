@@ -37,7 +37,14 @@ nav ul li a{
 	width: 300px;
 	float: left;
 	margin: 10px;
-	height: 650px;
+}
+#tickets{
+	border: 1px solid red;
+    background-color:black;
+	width: 300px;
+	float: left;
+	margin: 10px;
+	height: 700px;
 }
 #inticket {
 	margin: 0 auto;
@@ -87,4 +94,61 @@ nav ul li a{
 }
 #right p{
 	color: cyan;
+}
+.showProduct{
+	top: 2px;
+	border: 1px solid red;
+	display: none;
+	width:98%;
+	text-align: center;
+	height:98%;
+	position: fixed;
+	background-color: black;
+	color: red;
+}
+/*Container med innehåll av produkter*/
+#container {
+float: left;
+}
+#leftc {
+	position: absolute;
+	width: 44%;
+	margin-top: 0%;
+	
+}
+#leftc img {
+	width: 75%;
+}
+#rightc {
+	text-align: center;
+	text-overflow: none;
+	width: 50%;
+	position: absolute;
+	right: 0px; 
+}
+.showProduct img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width:30%; 
+}
+/*Read reviews*/
+#all {
+	width: 98%;
+	float: left;
+	position: absolute;
+}
+#review {
+	float: left;
+	border: 1px solid red;
+	background-color: black;
+	color: red;
+	position: relative;
+	margin: 1%;
+	width: 300px;
+	text-align: center;
+	text-overflow: none;
+}
+#back {
+	color: red;
 }

@@ -15,12 +15,12 @@
 <nav>
  <div id="head">
    <ul> <br />
-   <img src="../jaok.png">
+   <img src="../Pictures/jaok.png">
     <a href="logedin.php"><li>Jaok Bodypillows</li></a>
     <a href="profile.php"><li>Profile</li></a>
     <a href="support.php"><li>Support</li></a>
     <a href="functions/logout.php"><li>Log out</li></a>
-    <img src="../jaoka.png">
+    <img src="../Pictures/jaoka.png">
     <style type="text/css">img{width: 3%;}</style>
     </ul>
   </div>

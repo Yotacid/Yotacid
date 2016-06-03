@@ -38,6 +38,7 @@
    <br /><img src="../../pictures/jaok.png">
     <a href="index.php"><li>Jaok Bodypillows</li></a>
     <a href="adminsupport.php"><li>Support</li></a>
+    <a href="reviews.php"><li>Reviews</li></a>
     <a href="functions/logout.php"><li>Log out</li></a>
     <img src="../../pictures/jaoka.png">
     </ul>

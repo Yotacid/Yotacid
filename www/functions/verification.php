@@ -1,7 +1,6 @@
 <?php
 session_start(); // Starta sessionen ( Alltid �verst)
-
-require_once('c:/wamp/phps/mysql_connect.php'); // Databasanslutning (ER S�KV�G)
+require_once('c:/wamp/phps/mysql_connect.php'); // Databasanslutning
 // Ger variabel $dbc som �r databasanslutningen.
  
 $query = 'SELECT * FROM users WHERE Mail="'.$_POST['mail'].'";';
