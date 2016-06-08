@@ -22,7 +22,18 @@ echo ':-</p><a href="functions/clearcart.php"><button>Clear cart</button></a>';
 	$query = 'SELECT * FROM product ORDER BY Product;';
 	$sql = mysqli_query($dbc,$query);
 	echo "<h1 style='text-align:center;'>Products:</h1><br />";
+
+	$querys = 'SELECT * FROM cart WHERE Id='.$_SESSION['id'].';';
+	$sqls = mysqli_query($dbc,$querys);
+
 	while($row = mysqli_fetch_array($sql)){
+	$querys = 'SELECT * FROM cart WHERE Id='.$_SESSION['id'].' AND Product='.$row['Product'].';';
+	$sqls = mysqli_query($dbc,$querys);
+	$amount = 0;
+		while($rows = mysqli_fetch_array($sqls)){
+			$amount = $amount + $rows['Amount'];
+		}
+
 	echo "<div id='tickets'><div id='inticket'><p>";
 	echo $row['Name'];
 	echo "</p></div><div id='inticket'><p>";
@@ -32,7 +43,7 @@ echo ':-</p><a href="functions/clearcart.php"><button>Clear cart</button></a>';
 	echo $row['shortdescription'];
 	echo "<br /><br />";
 	echo $row['Description'];
-	echo '<form method="POST" action="functions/cart.php"><p>Amount:</p><input type="number" name="Amount" required><br /><input type="text" value="'.$row['Product'].'" style="display:none;" name="Product"><input type="text" value="'.$row['Price'].'" name="Price"style="display:none;"><br /><input type="submit" value="Add to cart"></form><br /><p>';
+	echo '<form method="POST" action="functions/cart.php"><p>Amount:</p><input type="number" name="Amount" value="'.$amount.'" required><br /><input type="text" value="'.$row['Product'].'" style="display:none;" name="Product"><input type="text" value="'.$row['Price'].'" name="Price"style="display:none;"><br /><input type="submit" value="Add to cart"></form><br /><p>';
 	echo $row ['Price'];
 	echo ":- </p></div></div>";
 	echo '
